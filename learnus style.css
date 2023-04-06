@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* navigation bar */
+.nav1 {
+    height: 40px;
+    background-color: #003875;
+}
+
+.firstban {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.banbtn {
+    
+    color: white;
+    background-color: #1d6dc3;
+    margin: 3px;
+    padding:5px 10px;
+
+}
+
+.nav2 {
+    height: 70px;
+    background-color: #001A38;
+    display: flex;
+}
+
+
+
+.secondban {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.menu {
+    color: white;
+    padding: 10px 20px;
+ }
+
+ .bar img {
+    width:100%;
+ }
+
+.searchhead {
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(238, 209, 90);
+    margin: 15px;
+    padding: 15px 10px;
+}
+
+.form-control {
+    margin: 20px ;
+    height: 60px;
+}
+
+.search1 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 90px;
+    padding: 20px;
+}
+
+.search2 {
+    color: black;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    background-color: rgb(238, 209, 90);
+    width: 90px;
+    padding: 10px;
+}
+
+input {
+    width: 600px;
+}
+
+.classbtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sec1 {
+    width: 200px;
+    border: 1px solid;
+}
+
+.sec1img {
+    width: 10%
+}
+
+.sec1body {
+    border: 1px solid
+}
+
+.sec2  {
+    width: 200px;
+    border: 1px solid
+}
+
+.sec3  {
+    width: 200px;
+    border: 1px solid
+}
+
+.sec4  {
+    width: 200px;
+    border: 1px solid
+}
+
+.lastpart {
+    height:80px;
+    background-color: black;
+    margin-top: 30px;
+}
+
+.info {
+    color:white;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+    
+}
